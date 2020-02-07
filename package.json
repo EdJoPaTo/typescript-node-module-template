@@ -15,7 +15,7 @@
 	"scripts": {
 		"build": "del-cli dist && tsc",
 		"prepack": "npm run build",
-		"test": "tsc && xo && nyc ava"
+		"test": "tsc --sourceMap && xo && nyc ava"
 	},
 	"main": "dist/source",
 	"types": "dist/source",
@@ -40,14 +40,17 @@
 		"xo": "^0.25.3"
 	},
 	"nyc": {
+		"all": true,
 		"extension": [
 			".ts"
 		],
 		"include": [
-			"dist/source",
+			"dist",
 			"source"
 		],
 		"exclude": [
+			"test/**",
+			"**/*.d.ts",
 			"**/*.test.ts"
 		],
 		"reporter": [
