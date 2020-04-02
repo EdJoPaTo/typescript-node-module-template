@@ -1,9 +1,9 @@
 {
-	"name": "a",
+	"name": "typescript-node-module-boilerplate",
 	"version": "0.0.0",
 	"description": "",
 	"license": "MIT",
-	"repository": "<%= githubUsername %>/<%= moduleName %>",
+	"repository": "<%= githubUsername %>/typescript-node-module-boilerplate",
 	"author": {
 		"name": "<%= name %>",
 		"email": "<%= email %>",
