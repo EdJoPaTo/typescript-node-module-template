@@ -34,7 +34,7 @@
 		"del-cli": "^3.0.0",
 		"nyc": "^15.0.0",
 		"typescript": "^3.7.4",
-		"xo": "^0.28.2"
+		"xo": "^0.28.3"
 	},
 	"nyc": {
 		"all": true,
@@ -56,10 +56,6 @@
 		]
 	},
 	"xo": {
-		"extends": "xo-typescript",
-		"extensions": [
-			"ts"
-		],
 		"rules": {
 			"ava/no-ignored-test-files": "off"
 		}
