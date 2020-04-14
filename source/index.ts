@@ -7,5 +7,6 @@ export default function moduleName(input: string): string {
 }
 
 // For CommonJS default export support
+/* eslint @typescript-eslint/no-unsafe-member-access: off */
 module.exports = moduleName;
 module.exports.default = moduleName;

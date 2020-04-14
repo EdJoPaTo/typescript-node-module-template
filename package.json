@@ -34,7 +34,7 @@
 		"del-cli": "^3.0.0",
 		"nyc": "^15.0.0",
 		"typescript": "^3.7.4",
-		"xo": "^0.28.3"
+		"xo": "^0.29.1"
 	},
 	"nyc": {
 		"all": true,
@@ -58,6 +58,17 @@
 	"xo": {
 		"rules": {
 			"ava/no-ignored-test-files": "off"
-		}
+		},
+		"overrides": [
+			{
+				"files": [
+					"**/*.test.*",
+					"test/**/*.*"
+				],
+				"rules": {
+					"@typescript-eslint/prefer-readonly-parameter-types": "off"
+				}
+			}
+		]
 	}
 }
