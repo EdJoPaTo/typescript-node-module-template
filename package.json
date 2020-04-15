@@ -17,12 +17,6 @@
 		"prepack": "npm run build",
 		"test": "tsc --sourceMap && xo && nyc ava"
 	},
-	"main": "dist/source",
-	"types": "dist/source",
-	"files": [
-		"dist/source",
-		"!*.test.*"
-	],
 	"keywords": [
 		""
 	],
@@ -36,6 +30,12 @@
 		"typescript": "^3.7.4",
 		"xo": "^0.29.1"
 	},
+	"files": [
+		"dist/source",
+		"!*.test.*"
+	],
+	"main": "dist/source",
+	"types": "dist/source",
 	"nyc": {
 		"all": true,
 		"extension": [
