@@ -2,6 +2,9 @@
 	"name": "typescript-node-module-boilerplate",
 	"version": "0.0.0",
 	"description": "",
+	"keywords": [
+		""
+	],
 	"license": "MIT",
 	"repository": "<%= githubUsername %>/typescript-node-module-boilerplate",
 	"author": {
@@ -9,17 +12,14 @@
 		"email": "<%= email %>",
 		"url": "<%= website %>"
 	},
-	"engines": {
-		"node": ">=10"
-	},
 	"scripts": {
 		"build": "del-cli dist && tsc",
 		"prepack": "npm run build",
 		"test": "tsc --sourceMap && xo && nyc ava"
 	},
-	"keywords": [
-		""
-	],
+	"engines": {
+		"node": ">=10"
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"@sindresorhus/tsconfig": "^0.7.0",
