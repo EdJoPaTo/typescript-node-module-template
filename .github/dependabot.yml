@@ -8,9 +8,7 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily"
-    # Maybe interesting to not have as many changes to the package.json?
-    #versioning-strategy: increase-if-necessary
+      interval: "weekly"
     commit-message:
       # Prefix all commit messages with "npm"
       prefix: "chore(npm):"
