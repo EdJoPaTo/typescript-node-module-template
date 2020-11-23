@@ -22,7 +22,7 @@
 	},
 	"dependencies": {},
 	"devDependencies": {
-		"@sindresorhus/tsconfig": "^0.7.0",
+		"@sindresorhus/tsconfig": "^0.8.0",
 		"@types/node": "^14.0.5",
 		"ava": "^3.0.0",
 		"del-cli": "^3.0.0",
