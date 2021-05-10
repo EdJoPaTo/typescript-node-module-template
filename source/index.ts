@@ -7,5 +7,7 @@ export default function moduleName(input: string): string {
 }
 
 // For CommonJS default export support
+/* eslint-disable unicorn/prefer-module, @typescript-eslint/no-unsafe-member-access */
 module.exports = moduleName;
 module.exports.default = moduleName;
+/* eslint-enable */
