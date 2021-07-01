@@ -33,7 +33,7 @@
 	},
 	"files": [
 		"dist/source",
-		"!*.test.*"
+		"!**/*.test.*"
 	],
 	"main": "dist/source",
 	"types": "dist/source",
