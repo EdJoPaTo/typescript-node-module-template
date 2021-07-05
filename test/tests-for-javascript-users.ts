@@ -6,6 +6,6 @@ test('title', t => {
 		// @ts-expect-error
 		moduleName(123);
 	}, {
-		message: 'Expected a string, got number'
+		message: 'Expected a string, got number',
 	});
 });
