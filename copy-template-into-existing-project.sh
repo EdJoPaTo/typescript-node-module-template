@@ -13,7 +13,7 @@ name=$(basename "$pwd")
 cd "$(dirname "$0")"
 
 cp -rv \
-    {package.json,tsconfig.json,.npmignore,.gitignore,.github} \
+    {package.json,tsconfig.json,.npmignore,.npmrc,.gitignore,.github} \
     "$pwd"
 
 echo "everything copied"
