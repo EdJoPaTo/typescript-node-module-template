@@ -18,7 +18,7 @@ $ npm install typescript-node-module-boilerplate
 ## Usage
 
 ```js
-const <%= camelModuleName %> = require('typescript-node-module-boilerplate');
+const {<%= camelModuleName %>} = require('typescript-node-module-boilerplate');
 
 <%= camelModuleName %>('unicorns');
 //=> 'unicorns & rainbows'
