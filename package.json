@@ -43,8 +43,9 @@
 	"xo": {
 		"rules": {
 			"@typescript-eslint/prefer-readonly-parameter-types": "warn",
+			"ava/no-ignored-test-files": "off",
 			"import/extensions": ["error", "never"],
-			"ava/no-ignored-test-files": "off"
+			"unicorn/prefer-node-protocol": "off"
 		},
 		"overrides": [
 			{
