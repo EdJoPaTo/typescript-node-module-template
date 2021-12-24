@@ -44,7 +44,10 @@
 		"rules": {
 			"@typescript-eslint/prefer-readonly-parameter-types": "warn",
 			"ava/no-ignored-test-files": "off",
-			"import/extensions": ["error", "never"],
+			"import/extensions": [
+				"error",
+				"never"
+			],
 			"unicorn/prefer-node-protocol": "off"
 		},
 		"overrides": [
