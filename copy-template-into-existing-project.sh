@@ -24,4 +24,4 @@ cd -
 # macOS: add '' after -i like this: sed -i '' "s/…
 sed -i "s/typescript-node-module-boilerplate/$name/g" package.json .github/**/*.yml
 
-git --no-pager diff --stat
+git --no-pager status --short
