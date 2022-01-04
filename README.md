@@ -2,8 +2,6 @@
 
 [![NPM Version](https://img.shields.io/npm/v/typescript-node-module-boilerplate.svg)](https://www.npmjs.com/package/typescript-node-module-boilerplate)
 [![node](https://img.shields.io/node/v/typescript-node-module-boilerplate.svg)](https://www.npmjs.com/package/typescript-node-module-boilerplate)
-[![Dependency Status](https://david-dm.org/<%= githubUsername %>/typescript-node-module-boilerplate/status.svg)](https://david-dm.org/<%= githubUsername %>/typescript-node-module-boilerplate)
-[![Dev Dependency Status](https://david-dm.org/<%= githubUsername %>/typescript-node-module-boilerplate/dev-status.svg)](https://david-dm.org/<%= githubUsername %>/typescript-node-module-boilerplate?type=dev)
 
 >
 
