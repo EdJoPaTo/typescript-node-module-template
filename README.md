@@ -5,41 +5,17 @@
 
 >
 
-
 ## Install
 
+```bash
+npm install typescript-node-module-boilerplate
 ```
-$ npm install typescript-node-module-boilerplate
-```
-
 
 ## Usage
 
 ```js
-const {<%= camelModuleName %>} = require('typescript-node-module-boilerplate');
+import {<%= camelModuleName %>} from 'typescript-node-module-boilerplate';
 
 <%= camelModuleName %>('unicorns');
 //=> 'unicorns & rainbows'
 ```
-
-
-## API
-
-### <%= camelModuleName %>(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `Object`
-
-##### foo
-
-Type: `boolean`\
-Default: `false`
-
-Lorem ipsum.
