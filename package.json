@@ -31,8 +31,12 @@
 		"typescript": "^4.2.3",
 		"xo": "^0.49.0"
 	},
-	"main": "dist/source/index.js",
-	"types": "dist/source/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/source/index.d.ts",
+			"default": "./dist/source/index.js"
+		}
+	},
 	"nyc": {
 		"all": true,
 		"reporter": [
