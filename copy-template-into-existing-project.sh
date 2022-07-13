@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -e
+set -eu
 
 # Usage
 # Go to the project you want to improve via this template
@@ -7,18 +7,14 @@ set -e
 # Run this script from the working directory of that project
 # ~/git/typescript-node-module-boilerplate/copy-template-into-existing-project.sh
 
-pwd=$(pwd)
-name=$(basename "$pwd")
+name=$(basename "$PWD")
+templatedir="$(dirname "$0")"
 
-cd "$(dirname "$0")"
-
-cp -rv \
-    {package.json,tsconfig.json,.npmignore,.npmrc,.gitignore,.github} \
-    "$pwd"
+cp -r \
+    "$templatedir/"{package.json,tsconfig.json,.editorconfig,.gitattributes,.github,.gitignore,.npmignore,.npmrc} \
+    .
 
 echo "everything copied"
-
-cd -
 
 # Replace template name with folder name
 # macOS: add '' after -i like this: sed -i '' "s/…
