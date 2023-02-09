@@ -5,6 +5,7 @@
 		"test"
 	],
 	"compilerOptions": {
+		"importsNotUsedAsValues": "error",
 		"module": "CommonJS",
 		"outDir": "dist"
 	}
