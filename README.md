@@ -13,9 +13,9 @@ npm install typescript-node-module-boilerplate
 
 ## Usage
 
-```js
-import {<%= camelModuleName %>} from 'typescript-node-module-boilerplate';
+```ts
+import {myFunction} from 'typescript-node-module-boilerplate';
 
-<%= camelModuleName %>('unicorns');
+myFunction('unicorns');
 //=> 'unicorns & rainbows'
 ```

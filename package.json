@@ -6,11 +6,14 @@
 		""
 	],
 	"license": "MIT",
-	"repository": "<%= githubUsername %>/typescript-node-module-boilerplate",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/EdJoPaTo/typescript-node-module-boilerplate.git"
+	},
 	"author": {
-		"name": "<%= name %>",
-		"email": "<%= email %>",
-		"url": "<%= website %>"
+		"name": "EdJoPaTo",
+		"email": "typescript-node-module-boilerplate-npm-package@edjopato.de",
+		"url": "https://edjopato.de"
 	},
 	"scripts": {
 		"build": "del-cli dist && tsc",
