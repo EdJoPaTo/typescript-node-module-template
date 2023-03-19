@@ -11,8 +11,8 @@ name=$(basename "$PWD")
 templatedir="$(dirname "$0")"
 
 cp -r \
-    "$templatedir/"{package.json,tsconfig.json,.editorconfig,.gitattributes,.github,.gitignore,.npmignore,.npmrc} \
-    .
+	"$templatedir/"{package.json,tsconfig.json,.editorconfig,.gitattributes,.github,.gitignore,.npmignore,.npmrc} \
+	.
 
 echo "everything copied"
 
