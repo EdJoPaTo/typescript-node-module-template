@@ -5,6 +5,7 @@
 		"test"
 	],
 	"compilerOptions": {
+		"target": "ES2022", // Node.js 18
 		"module": "CommonJS",
 		"outDir": "dist"
 	}
