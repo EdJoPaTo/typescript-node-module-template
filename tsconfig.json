@@ -5,7 +5,8 @@
 		"test"
 	],
 	"compilerOptions": {
-		"target": "ES2022", // Node.js 18
+		"target": "ES2015",
+		"lib": ["ES2015"],
 		"outDir": "dist"
 	}
 }
