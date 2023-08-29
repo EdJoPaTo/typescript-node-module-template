@@ -5,8 +5,8 @@
 		"test"
 	],
 	"compilerOptions": {
-		"target": "ES2015",
-		"lib": ["ES2015"],
+		"target": "ES2020",
+		"lib": ["ES2020"],
 		"outDir": "dist"
 	}
 }
