@@ -7,6 +7,8 @@ set -eu
 # Run this script from the working directory of that project
 # ~/git/typescript-node-module-boilerplate/copy-template-into-existing-project.sh
 
+git diff --quiet || (echo "repo unclean. stage or commit first" && exit 1)
+
 name=$(basename "$PWD")
 templatedir="$(dirname "$0")"
 
