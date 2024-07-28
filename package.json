@@ -31,7 +31,7 @@
 		"c8": "^10.1.2",
 		"del-cli": "^5.0.0",
 		"typescript": "^5.5.2",
-		"xo": "^0.58.0"
+		"xo": "^0.59.3"
 	},
 	"files": [
 		"dist",
@@ -51,7 +51,9 @@
 					"**/test.*"
 				],
 				"rules": {
-					"@typescript-eslint/prefer-readonly-parameter-types": "off"
+					"@typescript-eslint/prefer-readonly-parameter-types": "off",
+					"n/no-unsupported-features/es-syntax": "off",
+					"n/no-unsupported-features/node-builtins": "off"
 				}
 			}
 		]
