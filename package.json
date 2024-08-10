@@ -27,7 +27,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@sindresorhus/tsconfig": "^6.0.0",
-		"@types/node": "^18.18.13",
+		"@types/node": "^22.2.0",
 		"c8": "^10.1.2",
 		"del-cli": "^5.0.0",
 		"typescript": "^5.5.2",
