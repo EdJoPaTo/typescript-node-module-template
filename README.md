@@ -14,8 +14,8 @@ npm install typescript-node-module-boilerplate
 ## Usage
 
 ```ts
-import {myFunction} from 'typescript-node-module-boilerplate';
+import { myFunction } from "typescript-node-module-boilerplate";
 
-myFunction('unicorns');
+myFunction("unicorns");
 //=> 'unicorns & rainbows'
 ```

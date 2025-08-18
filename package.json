@@ -30,7 +30,7 @@
 		"c8": "^10.1.2",
 		"del-cli": "^6.0.0",
 		"typescript": "^5.9.2",
-		"xo": "^0.60.0"
+		"xo": "^1.2.2"
 	},
 	"files": [
 		"dist",
@@ -39,23 +39,20 @@
 	],
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"xo": {
-		"rules": {
-			"@typescript-eslint/prefer-readonly-parameter-types": "warn",
-			"n/file-extension-in-import": "off"
-		},
-		"overrides": [
-			{
-				"files": [
-					"**/*.test.*",
-					"**/test.*"
-				],
-				"rules": {
-					"@typescript-eslint/prefer-readonly-parameter-types": "off",
-					"n/no-unsupported-features/es-syntax": "off",
-					"n/no-unsupported-features/node-builtins": "off"
-				}
+	"xo": [
+		{
+			"rules": {
+				"@typescript-eslint/prefer-readonly-parameter-types": "warn"
 			}
-		]
-	}
+		},
+		{
+			"files": [
+				"**/*.test.*",
+				"**/test.*"
+			],
+			"rules": {
+				"@typescript-eslint/prefer-readonly-parameter-types": "off"
+			}
+		}
+	]
 }
