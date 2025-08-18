@@ -29,7 +29,7 @@
 		"@types/node": "^18.18.13",
 		"c8": "^10.1.2",
 		"del-cli": "^6.0.0",
-		"typescript": "^5.7.2",
+		"typescript": "^5.9.2",
 		"xo": "^0.60.0"
 	},
 	"files": [
@@ -41,7 +41,8 @@
 	"types": "./dist/index.d.ts",
 	"xo": {
 		"rules": {
-			"@typescript-eslint/prefer-readonly-parameter-types": "warn"
+			"@typescript-eslint/prefer-readonly-parameter-types": "warn",
+			"n/file-extension-in-import": "off"
 		},
 		"overrides": [
 			{

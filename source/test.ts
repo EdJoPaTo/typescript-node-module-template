@@ -1,6 +1,6 @@
 import {strictEqual, throws} from 'node:assert';
 import {test} from 'node:test';
-import {moduleName} from './index.js';
+import {moduleName} from './index.ts';
 
 await test('simple string input', () => {
 	strictEqual(moduleName('unicorns'), 'unicorns & rainbows');
