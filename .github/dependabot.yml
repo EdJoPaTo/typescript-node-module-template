@@ -27,5 +27,3 @@ updates:
     groups:
       actions:
         patterns: ["actions/*"]
-      docker:
-        patterns: ["docker/*"]
