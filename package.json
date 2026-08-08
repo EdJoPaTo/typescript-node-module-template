@@ -28,7 +28,7 @@
 	"devDependencies": {
 		"@types/node": "^18.18.13",
 		"c8": "^11.0.0",
-		"typescript": "^6.0.2",
+		"typescript": "^7.0.2",
 		"xo": "^1.2.2"
 	},
 	"files": [
