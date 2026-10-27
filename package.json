@@ -6,52 +6,38 @@
 		""
 	],
 	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/EdJoPaTo/typescript-node-module-boilerplate.git"
-	},
 	"author": {
 		"name": "EdJoPaTo",
 		"email": "typescript-node-module-boilerplate-npm-package@edjopato.de",
 		"url": "https://edjopato.de"
 	},
-	"scripts": {
-		"build": "rm -rf ./dist && tsc",
-		"prepack": "npm run build",
-		"test": "tsc --sourceMap && xo && c8 --all node --test --enable-source-maps"
-	},
-	"type": "module",
-	"engines": {
-		"node": ">=14"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"@types/node": "^18.18.13",
-		"c8": "^11.0.0",
-		"typescript": "^6.0.2",
-		"xo": "^1.2.2"
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EdJoPaTo/typescript-node-module-boilerplate.git"
 	},
 	"files": [
 		"dist",
 		"!*.test.*",
 		"!test.*"
 	],
+	"type": "module",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"xo": [
-		{
-			"rules": {
-				"@typescript-eslint/prefer-readonly-parameter-types": "warn"
-			}
-		},
-		{
-			"files": [
-				"**/*.test.*",
-				"**/test.*"
-			],
-			"rules": {
-				"@typescript-eslint/prefer-readonly-parameter-types": "off"
-			}
-		}
-	]
+	"scripts": {
+		"build": "rm -rf ./dist && tsc",
+		"prepack": "npm run build",
+		"test": "tsc --sourceMap && oxlint && oxfmt --check && c8 --all node --enable-source-maps --test"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^18.18.13",
+		"c8": "^11.0.0",
+		"oxfmt": "^0.74.0",
+		"oxlint": "^1.89.0",
+		"oxlint-tsgolint": "^7.0.2005",
+		"typescript": "^7.0.2"
+	},
+	"engines": {
+		"node": ">=14"
+	}
 }
