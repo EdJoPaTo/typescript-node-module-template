@@ -16,7 +16,12 @@
 	},
 	"rules": {
 		"func-style": ["error", "declaration"],
+		"import/no-duplicates": ["error", { "preferInline": true }],
 		"no-warning-comments": "warn",
+		"typescript/array-type": ["error", { "default": "array-simple" }],
+		"typescript/explicit-module-boundary-types": "error",
+		"typescript/no-import-type-side-effects": "error",
+		"typescript/no-non-null-assertion": "error",
 		"typescript/prefer-nullish-coalescing": ["error", { "ignorePrimitives": { "string": true } }],
 		"typescript/prefer-readonly-parameter-types": ["error", { "ignoreInferredTypes": true }],
 		"typescript/strict-boolean-expressions": [
@@ -26,7 +31,8 @@
 				"allowNullableString": true,
 				"allowString": true
 			}
-		]
+		],
+		"unicorn/prefer-node-protocol": "error"
 	},
 	"overrides": [
 		{
